@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* основной контент */
+.block {
+  margin: 1px;
+  margin-left: 20px;
+  text-align: center;
+  background-color:rgb(194, 215, 243);
+}
+.conteiner {
+  float: right;
+  display:inline-block;
+  background-color:rgb(255, 255, 255);
+  border: solid;
+  border-width: 0.5px;
+  padding: 7px;
+  margin: 1px;
+}
+.osnova {display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.zag {background-color:rgb(194, 215, 243);
+  text-align: center;
+  margin: 5px;
+}
+
+.end {background-color:rgb(194, 215, 243);
+  text-align: center;
+}
+.table {
+  display: inline-block;
+  border: solid;
+  border-width: 0.5px;
+  padding-right: 15px;
+}
+.table>p {text-align: center;}
+
+
+/* верхняя панель */
+.navig {display: flex;
+  justify-content: space-between;
+  background-color: rgb(194, 215, 243);
+}
+.navig>nav>ul {display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.navig>nav>ul>li>a {display: block;
+  padding: 10px;
+  border: solid;
+  border-width: 0.5px;
+}
+@media (max-width: 900px) {
+  .navig {flex-direction: column;}
+}
+.page {
+  display: flex;
+  justify-content: center;
+}
+.bok {
+  width: 10%;
+  background-color: rgb(247, 247, 247);
+
+}
+.kontent {
+  width: 90%;
+}
+.text-page {
+  padding-left: 15px;
+}
+.bok>ul {
+  list-style: none;
+  border-bottom-style: solid;
+  border-width: 0.5px;
+  margin: 10px;
+  padding: 0;
+  padding-bottom: 10px;
+}
+.bok>div {width: 100%;}
+.bok>div>img {
+  width: 100%;
+
+}
